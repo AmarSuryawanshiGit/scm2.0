@@ -12,5 +12,12 @@
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.4.17"
-  }
+  },
+  
+    "name": "com.scm",
+    "scripts": {
+      "build": "babel src -d lib",
+      "test": "jest"
+    }
+  
 }
